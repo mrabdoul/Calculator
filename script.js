@@ -5,6 +5,10 @@ const resetBtn = document.querySelector('#reset');
 const deleteBtn = document.querySelector('#delete');
 const equals = document.querySelector('.equals');
 
+let a = '';
+let operator = '';
+let b = '';
+
 function add(a, b) {
 	return a + b
 }
