@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: hsl(222, 26%, 31%);
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Arial';
+	flex-direction: column;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	min-width: 400px;
+	color: hsl(0, 0%, 100%);
+	font-weight: 700;
+	margin: 2% 0;
+	font-size: 24px;
+}
+.theme{
+	display: flex;
+	justify-content: space-between;
+	font-size: 8px;
+	width: 100px;
+}
+.switcher{
+	display: flex;
+	flex-direction: column;
+}
+ul{
+	display: flex;
+	gap: 2px;
+	list-style: none;
+}
+.toggle{
+	width: 100%;
+	background: hsl(223, 31%, 20%);
+}
+.toggle button{
+	width: 80%;
+	height: 80%;
+	border-radius: 50%;
+	background-color: hsl(6, 63%, 50%);
+}
+
+.main{
+	min-width: 400px;
+}
+.screen, input{
+	min-width: 100%;
+	height: 60px;
+	border-radius: 8px;
+	background: hsl(224, 36%, 15%);
+	border: none;
+	margin-bottom: 5%;
+	color: hsl(0, 0%, 100%);
+	font-size: 32px;
+}
+.keypad{
+	max-width: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5%;
+	justify-content: space-between;
+	align-items: center;
+	background: hsl(223, 31%, 20%);
+	border-radius: 8px;
+	font-weight: 700;
+	gap: 10px;
+}
+button{
+	font-size: 32px;
+	width: 70px;
+	height: 45px;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	border: none;
+}
+.number, .operator{
+	color: hsl(223, 31%, 20%);
+	background: hsl(30, 25%, 89%);
+}
+.bottom{
+	width: 165px;
+}
+.clear{
+	color: white;
+	background: hsl(225, 21%, 49%);
+}
+.equals{
+	color: white;
+	background: hsl(6, 63%, 50%);
+}
