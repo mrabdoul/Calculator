@@ -43,5 +43,5 @@ Users should be able to:
 
 ## Acknowledgments
 
-Design files gotten from frontendmentor(https://www.frontendmentor.io/);
-Challenge by The Odin Project(https://www.theodinproject.com/)
+Design files gotten from [frontendmentor](https://www.frontendmentor.io/);
+Challenge by [The Odin Project](https://www.theodinproject.com/)
