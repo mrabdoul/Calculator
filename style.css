@@ -60,6 +60,8 @@ ul{
 	margin-bottom: 5%;
 	color: hsl(0, 0%, 100%);
 	font-size: 32px;
+	display: flex;
+	justify-content: flex-end;
 }
 .keypad{
 	max-width: 400px;
